@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTFOLIO</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+
+    <body>
+        <header class="container">
+            <div class="page-header">
+                <div class="logo">
+                    <!-- <a href="#">Developer.</a> -->
+                </div>
+                <input type="checkbox" id="click">
+                <label for="click" class="mainicon">
+                    <div class="menu">
+                        <i class='bx bx-menu'></i>
+                    </div>
+                </label>
+                <ul>
+                    <li><a href="#" class="active" style="--navAni:1">Home</a></li>
+                    <li><a href="#about" style="--navAni:2">About</a></li>
+                    <li><a href="#myskill" style="--navAni:3">Skills</a></li>
+                    <li><a href="#project" style="--navAni:4">Project</a></li>
+                    <li><a href="#contact" style="--navAni:5">Contact</a></li>
+                </ul>
+            </div>
+</header>
+<section class="container">
+    <div class="main">
+        <div class="rounding-sec">
+            
+            <div class="images">
+                <img src="./img/IMG_20230907_150623_0010.jpg" alt="" class="img-w">
+            </div>
+        </div>
+        <div class="detail">
+            <h3>Hi, I'm</h3>
+            <h1><span style="color:#f9532d;">RAGHUL RAVI</span> </h1>
+            <p>I'm a professional Web Developer. Our Main Goal to help & Satisficed the Local & Global Clients by web development solutions</p>
+            <a href="./files/raghul_ravi_CV.pdf" download="raghul_ravi_CV.pdf"><button id="downloadButton">Download CV</button></a>
+        </div>
+    </div>
+</section>   
+<br><br><br><br><br>
+<div class="container" id="about">
+    <div class="main-title">
+        <h1>About</h1>
+        
+    </div>
+</div>
+<br><br><br><br>
+<div class="abouts">
+    <div class="about" >
+
+    <p>I am Raghul, a passionate and dedicated frontend developer from Chennai.</p><p>As a fresher in the field, I have a strong foundation in HTML, CSS, JavaScript, and Bootstrap, allowing me to build responsive and user-friendly web applications.</p><p>I am committed to continuously improving my skills and staying updated with the latest web development trends and technologies. I enjoy turning complex problems into simple, beautiful, and intuitive designs. My goal is to create seamless digital experiences that leave a lasting impression.I am excited to collaborate on projects that challenge me to learn and grow while contributing to impactful web solutions. Let's connect and create something amazing together!</p></div>
+    <div class="about" >
+
+        <p>I am Raghul, a passionate and dedicated frontend developer from Chennai.</p><p>As a fresher in the field, I have a strong foundation in HTML, CSS, JavaScript, and Bootstrap, allowing me to build responsive and user-friendly web applications.</p><p>I am committed to continuously improving my skills and staying updated with the latest web development trends and technologies. I enjoy turning complex problems into simple, beautiful, and intuitive designs. My goal is to create seamless digital experiences that leave a lasting impression.I am excited to collaborate on projects that challenge me to learn and grow while contributing to impactful web solutions. Let's connect and create something amazing together!</p></div>
+    
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>    
+<div class="container" id="myskill">
+	
+    <!--   *******  Main Heading Starts  *******   -->
+
+    <div class="main-title">
+        <h1>Skills</h1>
+        
+    </div>
+
+    <!--   *******  Main Heading Ends  *******   -->
+
+    <div class="row">
+        
+        <!--   *******  Left Section Starts here  *******   -->
+
+        <section class="col">
+            
+            <div class="sub-title">
+                <h2>Programming Skills</h2>
+            </div>
+
+            <div class="skills-container">
+                
+                <div class="skill">
+                    <div class="subject">HTML</div>
+                    <div class="progress-bar" value="95%">
+                        <div class="progress-line" style="max-width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="subject">CSS</div>
+                    <div class="progress-bar" value="85%">
+                        <div class="progress-line" style="max-width: 85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="subject">JavaScript</div>
+                    <div class="progress-bar" value="70%">
+                        <div class="progress-line" style="max-width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="subject">My sql</div>
+                    <div class="progress-bar" value="80%">
+                        <div class="progress-line" style="max-width: 80%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--   ********  Left Section Ends Here  *******  -->
+
+        <!--   ********  Right Section Starts Here  ********  -->
+
+        <section class="col">
+            
+            <div class="sub-title">
+                <h2>Other Skills</h2>
+            </div>
+
+            <div class="skills-container">
+                
+                <div class="skill">
+                    <div class="subject">Excel</div>
+                    <div class="progress-bar" value="90%">
+                        <div class="progress-line" style="max-width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="subject">Power bi</div>
+                    <div class="progress-bar" value="80%">
+                        <div class="progress-line" style="max-width: 74%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="subject">Figma</div>
+                    <div class="progress-bar" value="50%">
+                        <div class="progress-line" style="max-width: 50%"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="subject">Responsive Design</div>
+                    <div class="progress-bar" value="91%">
+                        <div class="progress-line" style="max-width: 91%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--   ********  Right Section Ends Here  ********   -->
+    </div>
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+    <div class="main-title">
+        <h1 id="project">Project</h1>
+        
+    </div>
+    <br><br><br>
+    <div class="pro">
+    <div class="project">
+        <div class="project1" >
+            <img src="./img/Screenshot 2024-08-31 144235.png" alt="" width="305px" height="200px ">
+            <h2><span style="color:#f9532d;">Restaurant</span> website</h2><br>         
+        <p>The website for Foodie Restaurant was designed to offer a seamless and immersive user experience, reflecting the restaurant's unique ambiance and culinary excellence. The design focuses on creating a visually appealing and easy-to-navigate platform, enhancing user engagement and encouraging reservations.</p>
+
+        </div>
+       
+    </div>
+    <div class="project">
+        <div class="project1" >
+            <img src="./img/Screenshot 2024-09-01 160657.png" alt="" width="305px" height="200px ">
+            <h2><span style="color:#f9532d">Restaurant</span> website</h2><br>         
+        <p>The website for Foodie Restaurant was designed to offer a seamless and immersive user experience, reflecting the restaurant's unique ambiance and culinary excellence. The design focuses on creating a visually appealing and easy-to-navigate platform, enhancing user engagement and encouraging reservations.</p>
+
+        </div>
+       
+    </div>
+</div>
+</div>
+</section>
+<br><br><br><br><br><br><br><br>
+
+<footer class="footer" id="footer">
+   
+<div class="google-location">
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486.58583900063843!2d79.28881014377252!3d12.668534818414406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad295822819583%3A0x3a041990e289f301!2sUnion%20Bank%20Of%20India!5e0!3m2!1sen!2sin!4v1723391917607!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div> 
+</div>
+<div class="footerbox">
+    <div class="container" id="contact">
+        <div class="main-title">
+            <h1>Contact</h1>
+            
+        </div>
+         
+                <p><span style="color:#f9532d;">Email:</span>raghulraviworld@gmail.com</p>
+                <p><span style="color:#f9532d;">Phone number:</span>9677847501</p>
+                <a href="www.linkedin.com/in/raghul-ravi-75921b219"><span><i class="fa fa fa-linkedin"></i></span>Linkedin</a>
+                <a href="https://github.com/Raghul2510"><span><i class="fa fa fa-github-alt"></i></span>Github</a>
+       <div class="copywrite">Copyright ©2024 All rights reserved..</div>
+
+       </div>
+
+    
+
+</footer>
+<script src="./script.js"></script>
+</body>
+
+   
+</html>
